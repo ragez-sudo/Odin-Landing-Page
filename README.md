@@ -1,4 +1,4 @@
-# Odin-Landing-Page
+# Odin Landing Page
 
 This holds the html and css files of the Odin Project: Landing Page found at the end of the Fexbox section in Foundations.
 
