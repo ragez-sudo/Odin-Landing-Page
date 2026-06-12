@@ -11,6 +11,7 @@ body {
 .content {
     padding-left: 124px;
     padding-right: 124px;
+    padding-bottom: 64px;
 }
 
 /*need to combine header and hero into one section*/
@@ -39,7 +40,6 @@ a {
 #hero {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 64px;
     gap: 32px;
 }
 
@@ -57,6 +57,7 @@ a {
 .subtext {
     text-wrap: balance;
     margin-top: 0;
+    font-size: 18px;
 }
 
 .picbox {
@@ -75,6 +76,34 @@ button {
     border: #F9FAF8;
     border-radius: 3px;
     padding: 8px 24px 8px 24px;
+}
+
+#content-header {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    width: 136px;
+    height: 136px;
+    border: solid, #3882f6;
+    border-radius: 10px;
 }
 
 #footer {
