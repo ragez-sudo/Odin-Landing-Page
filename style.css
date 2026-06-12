@@ -9,8 +9,8 @@ body {
 }
 
 .content {
-    padding-left: 124px;
-    padding-right: 124px;
+    padding-left: 128px;
+    padding-right: 128px;
     padding-bottom: 64px;
 }
 
@@ -73,9 +73,13 @@ a {
 button {
     background-color: #3882f6 ;
     color: #F9FAF8;
-    border: #F9FAF8;
-    border-radius: 3px;
+    border: 0;
+    border-radius: 5px;
     padding: 8px 24px 8px 24px;
+    display: flex;
+    box-sizing: border-box;
+    max-height: 32px;
+    text-wrap: nowrap;
 }
 
 #content-header {
@@ -127,7 +131,30 @@ button {
     font-size: 24px;
 }
 
+#action-container {
+    background-color: #3882f6;
+    display: flex;
+    gap: 24px;
+    border-radius: 5px;
+    padding: 12px 26px;
+    align-items: center;
+    margin-top: 48px;
+    justify-content: space-around;
+}
 
+.action {
+    color: #F9FAF8;
+}
+
+#action-call {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#two {
+    border: 2px, solid,#E5E7EB;
+}
 
 #footer {
     display: flex;
